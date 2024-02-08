@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/pratikdas/Github/cpp-emulation/main'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __ZN3CPU5resetER6Memory, symObjAddr: 0x0, symBinAddr: 0x100003C34, symSize: 0xBC }
+  - { offsetInCU: 0x229, offset: 0x229, size: 0x8, addend: 0x0, symName: __ZN3CPU5resetER6Memory, symObjAddr: 0x0, symBinAddr: 0x100003C34, symSize: 0xBC }
+  - { offsetInCU: 0x25D, offset: 0x25D, size: 0x8, addend: 0x0, symName: __ZN6Memory4initEv, symObjAddr: 0xBC, symBinAddr: 0x100003CF0, symSize: 0x58 }
+  - { offsetInCU: 0x29F, offset: 0x29F, size: 0x8, addend: 0x0, symName: __ZN3CPU7executeEjR6Memory, symObjAddr: 0x114, symBinAddr: 0x100003D48, symSize: 0xE4 }
+  - { offsetInCU: 0x319, offset: 0x319, size: 0x8, addend: 0x0, symName: __ZN3CPU5fetchERjR6Memory, symObjAddr: 0x1F8, symBinAddr: 0x100003E2C, symSize: 0x64 }
+  - { offsetInCU: 0x369, offset: 0x369, size: 0x8, addend: 0x0, symName: __ZN6MemoryixEj, symObjAddr: 0x25C, symBinAddr: 0x100003E90, symSize: 0x20 }
+  - { offsetInCU: 0x39B, offset: 0x39B, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x27C, symBinAddr: 0x100003EB0, symSize: 0xC8 }
+...
